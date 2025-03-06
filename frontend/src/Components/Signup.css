@@ -1,0 +1,51 @@
+/* Center the Signup Box */
+.signup-container {
+  width: 40vw;  /* Make it bigger */
+  max-width: 400px;  /* Limit max size */
+  background-color: white;
+  padding: 3rem;  /* Add more padding */
+  margin: 50px auto;  /* Center it */
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Signup Heading */
+.signup-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Input Fields */
+.signup-input {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.signup-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: green;
+  color: white;
+  border: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background-color: darkgreen;
+}
+
+

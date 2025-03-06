@@ -1,0 +1,131 @@
+/* Home.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50; /* Green background */
+    padding: 15px 20px; /* Padding for header */
+    color: white; /* White text color */
+  }
+  
+  .logo {
+    font-size: 24px; /* Logo font size */
+    font-weight: bold; /* Bold logo */
+  }
+  
+  .search-bar {
+    padding: 10px; /* Padding for search bar */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    width: 300px; /* Fixed width for search bar */
+  }
+  
+  .nav-buttons button {
+    background-color: transparent; /* Transparent background */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    margin-left: 15px; /* Space between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .nav-buttons button:hover {
+    color: #ddd; /* Change color on hover */
+  }
+  
+  /* Category Navigation Styles */
+  .category-nav {
+    display: flex;
+    justify-content: center; /* Center the category buttons */
+    margin: 20px 0; /* Margin for spacing */
+  }
+  
+  .category-button {
+    background-color: #2196F3; /* Blue background */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0 10px; /* Space between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  .category-button:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+  }
+  
+  /* Products Section Styles */
+  .products-section {
+    padding: 20px; /* Padding for products section */
+  }
+  
+  .products-grid {
+    display: grid; /* Use grid layout for products */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+  }
+  
+  .product-card {
+    background-color: white; /* White background for product cards */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 10px; /* Padding for product card */
+    text-align: center; /* Center text */
+  }
+  
+  .product-image {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+  }
+  
+  .product-title {
+    font-size: 18px; /* Font size for product title */
+    margin: 10px 0; /* Margin for spacing */
+  }
+  
+  .product-price {
+    color: #4CAF50; /* Green color for price */
+    font-weight: bold; /* Bold price */
+  }
+  
+  .product-actions {
+    display: flex; /* Flexbox for actions */
+    justify-content: center; /* Center actions */
+    align-items: center; /* Center vertically */
+  }
+  
+  .wishlist-button {
+    background: none; /* No background */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 24px; /* Font size for heart */
+    margin-right: 10px; /* Space between heart and quantity controls */
+  }
+  
+  .quantity-controls {
+    display: flex; /* Flexbox for quantity controls */
+    align-items: center; /* Center vertically */
+  }
+  
+  .quantity-controls button {
+    background-color: #f0f0f0; /* Light gray background */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding for buttons */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0 5px; /* Space between buttons */
+  }
+  
+  .quantity-controls span {
+    font-size: 16px; /* Font size for quantity */
+  }

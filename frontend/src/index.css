@@ -1,10 +1,11 @@
-body{
-  background-color: rgb(244, 245, 233) ;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height:100vh;
-  width:100%;
-  overflow: hidden;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .no-spinner::-webkit-outer-spin-button,
+  .no-spinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 }
